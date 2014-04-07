@@ -1,10 +1,5 @@
 Pygments for Wordpress
 
-Contributors: AbhishekGhosh
-Tags: pygments, syntax, highlight, highlighting, highlighter, hilite, colorize, code
-Requires at least: 2.5.0
-Tested up to: 3.8.1
-Stable tag: trunk
 
 This plugin uses pygments to highlight code on the server, with a simple shortcode.  Usage style [pyg]print "Hi"[/pyg]).
 
@@ -450,9 +445,9 @@ Languages:
 * yaml:
     YAML (filenames *.yaml, *.yml)
 
-== Frequently Asked Questions ==
+Frequently Asked Questions
 
-= Are all tabs really preserved? =
+Are all tabs really preserved?
 
 Almost.  Although the code is preserved correctly in the editor, as of 
 this writing (2011-06-28) the Pygments "pygmentize" command trims
@@ -461,20 +456,5 @@ see an option to disable that behavior in the documentation.  Other than that, f
 preserved.  My end goal is to make it preserve all tabs, such that a copy'n'paste 
 from the web page would result in an exact MD5 match of the original.
 
-
-== Screenshots ==
-
-[none]
-
-== Changelog ==
-
-= 1.0 =
-* Official stable release.
-
-= 0.1 =
-* Initial launch.
-
-== Upgrade Notice ==
-
-Just copy the new version over the old version.  This plugin does
+This plugin does
 not use the database for anything.
