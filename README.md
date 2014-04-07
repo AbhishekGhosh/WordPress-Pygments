@@ -1,4 +1,5 @@
-=== Pygments for Wordpress ===
+Pygments for Wordpress
+
 Contributors: AbhishekGhosh
 Tags: pygments, syntax, highlight, highlighting, highlighter, hilite, colorize, code
 Requires at least: 2.5.0
@@ -7,13 +8,13 @@ Stable tag: trunk
 
 This plugin uses pygments to highlight code on the server, with a simple shortcode.  Usage style [pyg]print "Hi"[/pyg]).
 
-== Description ==
+Description
 
 This WordPress plugin is a syntax highlighter for many different computer languages, including HTML, Python, PHP, Javascript, CSS, and many others.  
 It uses the Pygments syntax highlighter from Python. It is must to install `python-pygments` in-order to use this plugin.
 Derek Simkowiak originally developed this plugin but it was not maintained or updated.
 
-== Features ==
+Features
 
 * Line numbers are supported, using both an HTML table (which lets you copy'n'paste code from the page without any line numbers embedded), and alternatively "inline" line numbers, so that they are included when copy'n'pasting from the screen.
 
